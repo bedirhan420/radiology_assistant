@@ -72,8 +72,9 @@ Bu proje, bu süreci **tamamen otomatik hale getirerek**, tek bir ses kaydından
 ║      ┌────────┴────────┐                           ║
 ║      ▼                 ▼                           ║
 ║ ┌────────────────┐ ┌──────────────────┐            ║
-║ │ MRI Veri Çıkarıcı│ │ Kan Tahlili     │           ║
-║ │ (LLM + Şema)   │ │ Veri Çıkarıcı   │             ║
+║ │ MRI            │ │  Kan Tahlili     │            ║
+║ │  Veri Çıkarı   │ │  Veri Çıkarıcı   │            ║
+║ │ (LLM + Şema)   │ │                  │            ║
 ║ └───────┬────────┘ └────────┬─────────┘            ║
 ║         │                  │                       ║
 ║         └────────┬─────────┘                       ║
@@ -187,6 +188,7 @@ data/output/
 │   │-- config.py
 │   │-- orchestrator.py
 ```
+
 
 
 

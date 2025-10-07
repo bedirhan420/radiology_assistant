@@ -1,0 +1,18 @@
+{
+    "source_file": "blood_test1.mp3",
+    "transcript": "Hastamız Elif Sönmez, 29 yaşında, sürekli yorgunluk şikayetiyle başvurdu. Kan sayımı sonuçları incelendiğinde, hemoglobin değeri 9,8 gram DL olarak saptandı. WBC 7200 ve platelet 310 bin ile normal sınırlarda. Düşük hemoglobin, demir eksikliği anemisiyle uyumlu. Hasta dosyasına not olarak ekliyorum. Hastanın kan değerlerinde anemi bulgusu mevcuttur. Demir paneli testleri planlanmalıdır.",
+    "determined_form": "blood_test",
+    "extracted_data": {
+        "sick_informations": {
+            "name": "Elif",
+            "surname": "Sönmez",
+            "age": 29,
+            "id": null
+        },
+        "hemoglobin": 9.8,
+        "wbc": 7.2,
+        "platelet": 310,
+        "dr_note": "Hastanın kan değerlerinde anemi bulgusu mevcuttur. Demir paneli testleri planlanmalıdır."
+    },
+    "error": null
+}

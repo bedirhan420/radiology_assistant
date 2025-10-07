@@ -1,0 +1,17 @@
+{
+    "patient_name": "Elif Sönmez",
+    "text_chunk": "Bir diğer hastamız, 34 yaşındaki Elif Sönmez, kendisi bir süredir devam eden kronik yorgunluk ve solgunluk şikayetiyle polikliniğe başvurdu. hemoglobin değeri 9,5 gram DL gibi düşük bir seviyede geldi. Bu durum demir eksikliği anemisi ihtimalini gündeme getiriyor. Elif Sönmez için demir paneli isteğini oluştururken TCKN'sini kontrol ettim. Hasta kimlik numarası 23 milyar 456 milyon 789 bin 12. Bu numara üzerinden istem yapılsın ki karışıklık olmasın.",
+    "form_type": "blood_test",
+    "extracted_data": {
+        "patient_informations": {
+            "name": "Elif",
+            "surname": "Sönmez",
+            "age": 34,
+            "id": "23456789012"
+        },
+        "hemoglobin": 9.5,
+        "wbc": 4.5,
+        "platelet": 150,
+        "dr_note": "Demir eksikliği anemisi şüphesi. Demir paneli istendi."
+    }
+}

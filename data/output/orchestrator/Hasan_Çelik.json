@@ -1,0 +1,17 @@
+{
+    "patient_name": "Hasan Çelik",
+    "text_chunk": "Enfeksiyon şüphesiyle C-reaktif protein, yani CRP, de istemiştörü operasyonu sonrası birinci ay kontrolü için geldi. Çekilen post-OP kontrastlı beyin mreğinde, operasyon lojunda beklenen post-operatif değişiklikler dışında nüks veya rezidü kitleye ait bir bulgu saptanmamıştır. Bu sevindirici bir haber. Son olarak post-op takibindeki hastamız Hasan Çelik için, taburculuk planına mevcut antiepileptik ilacının doz ayarlaması için nöroloji konsültasyonu istenmesi gerektiğini de not düşelim. MRE temiz olsa da bu tür operasyonlar sonrası önlem almakta her zaman fayda var.",
+    "form_type": "mri",
+    "extracted_data": {
+        "patient_informations": {
+            "name": "Hasan",
+            "surname": "Çelik",
+            "age": null,
+            "id": null
+        },
+        "mr_area": "Brain",
+        "findings": "Operasyon lojunda beklenen post-operatif değişiklikler dışında nüks veya rezidü kitleye ait bir bulgu saptanmamıştır.",
+        "result": "Nüks veya rezidü kitle saptanmamıştır.",
+        "dr_note": "Post-op takibindeki hastanın taburculuk planına mevcut antiepileptik ilacının doz ayarlaması için nöroloji konsültasyonu istenmesi gerekmektedir."
+    }
+}

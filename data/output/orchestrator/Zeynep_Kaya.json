@@ -1,0 +1,17 @@
+{
+    "patient_name": "Zeynep Kaya",
+    "text_chunk": "Sıradaki hastamız Zeynep Kaya, 48 yaşında, yüksek ateş şikayetiyle acil servise başvurmuştu. Dün alınan kan tahlilinde beyaz küre sayımı, yani WBC, 16.800 olarak saptandı. Bu belirgin bir löközitos. Bu arada, acildeki hasta Zeynep Kaya'nın beklenen CRP sonucu da sisteme düşmüş. 175 mg bölü litre gibi oldukça yüksek bir değer bu bakteriyel enfeksiyon tanısını kuvvetlendiriyor mevcut antibiyotik tedavisi doğru bir seçim tedaviye aynı şekilde devam edilsin ve iki gün sonra kan değerleri tekrar kontrol edilsin",
+    "form_type": "blood_test",
+    "extracted_data": {
+        "patient_informations": {
+            "name": "Zeynep",
+            "surname": "Kaya",
+            "age": 48,
+            "id": null
+        },
+        "hemoglobin": 12.3,
+        "wbc": 16.8,
+        "platelet": 250000,
+        "dr_note": "Hastanın CRP sonucu 175 mg/L olarak tespit edilmiştir. Bu, bakteriyel enfeksiyon tanısını doğrulamaktadır. Mevcut antibiyotik tedavisine devam edilmesi ve iki gün sonra kan değerlerinin yeniden kontrol edilmesi önerilmektedir."
+    }
+}

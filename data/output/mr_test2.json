@@ -1,0 +1,18 @@
+{
+    "source_file": "mr_test2.mp3",
+    "transcript": "Lomber-MRG raporu Hasta adı Mehmet Yıldırım İnceleme bulguları L4-L5 disk seviyesinde Solforaminal alana uzanım gösteren ve sinir köküne belirgin bası oluşturan disk hernisi Saptanmıştır L5-S1 seviyesinde minimal disk bulgingi izlenmiştir. Diğer intervertebral disk yükseklikleri ve sinyal yoğunlukları normaldir. Sonuç L4-L5 seviyesinde sol foraminal disk hernisi ve sinir kökü basısı.",
+    "determined_form": "mri",
+    "extracted_data": {
+        "sick_informations": {
+            "name": "Mehmet",
+            "surname": "Yıldırım",
+            "age": null,
+            "id": null
+        },
+        "mr_area": "Lomber",
+        "findings": "L4-L5 disk seviyesinde Solforaminal alana uzanım gösteren ve sinir köküne belirgin bası oluşturan disk hernisi Saptanmıştır L5-S1 seviyesinde minimal disk bulgingi izlenmiştir. Diğer intervertebral disk yükseklikleri ve sinyal yoğunlukları normaldir.",
+        "result": "L4-L5 seviyesinde sol foraminal disk hernisi ve sinir kökü basısı.",
+        "dr_note": null
+    },
+    "error": null
+}

@@ -1,0 +1,18 @@
+{
+    "source_file": "mr_test1.mp3",
+    "transcript": "Hasta raporu diktesi, 58 yaşındaki Hasan Öztürk, TCKN 11.223.344.556. Çekilen beyin MR incelemesinde, sağ pariyetal bölgede yaklaşık 3 cm boyutunda, kontrast tutulumu gösteren bir kitle lezyonu saptanmıştır. Lezyon çevresinde belirgin vazojenik ödem mevcuttur. Radyolojik bulgular, öncelikle yüksek gradeli glial tümör olasılığını düşündürmektedir. Sonuç olarak, ileri tetkik ve biyopsi önerilir. Bilgiler Form 1'e işlensin.",
+    "determined_form": "mri",
+    "extracted_data": {
+        "sick_informations": {
+            "name": "Hasan",
+            "surname": "Öztürk",
+            "age": 58,
+            "id": "11223344556"
+        },
+        "mr_area": "Brain",
+        "findings": "sağ pariyetal bölgede yaklaşık 3 cm boyutunda, kontrast tutulumu gösteren bir kitle lezyonu saptanmıştır. Lezyon çevresinde belirgin vazojenik ödem mevcuttur.",
+        "result": "Radyolojik bulgular, öncelikle yüksek gradeli glial tümör olasılığını düşündürmektedir. İleri tetkik ve biyopsi önerilir.",
+        "dr_note": null
+    },
+    "error": null
+}

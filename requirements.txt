@@ -1,0 +1,9 @@
+langchain
+langchain-core
+langchain-community
+langchain_google_genai
+langgraph
+huggingface_hub
+dotenv
+pydantic
+cs 

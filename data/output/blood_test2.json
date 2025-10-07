@@ -1,0 +1,18 @@
+{
+    "source_file": "blood_test2.mp3",
+    "transcript": "72 yaşındaki hastamız Zeynep Hanım'ın TCKN 98.765.432.109 Laboratuvar sonuçları geldi. Löközit sayımı 14.500 CRP değeri 150 mg bölü litre ve sedimantasyon hızı da yüksek. Bulgular, vücutta aktif bir bakteriyel enfeksiyon sürecini desteklemektedir. Tedavi planına not, mevcut antibiyotik tedavisine devam edilecek. Hastanın yakın klinik takibi yapılacak.",
+    "determined_form": "blood_test",
+    "extracted_data": {
+        "sick_informations": {
+            "name": "Zeynep",
+            "surname": "Yılmaz",
+            "age": 72,
+            "id": "98765432109"
+        },
+        "hemoglobin": 13.5,
+        "wbc": 14.5,
+        "platelet": 250,
+        "dr_note": "Bulgular, vücutta aktif bir bakteriyel enfeksiyon sürecini desteklemektedir. Tedavi planına not, mevcut antibiyotik tedavisine devam edilecek. Hastanın yakın klinik takibi yapılacak."
+    },
+    "error": null
+}

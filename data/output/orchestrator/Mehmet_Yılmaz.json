@@ -1,0 +1,17 @@
+{
+    "patient_name": "Mehmet Yılmaz",
+    "text_chunk": "İlk dosya Mehmet Yılmaz, 55 yaşında. Kendisinin bel fıtığı şikayetiyle çekilen Lomber-MR raporunu inceliyorum. Bulgularda L4-L5 seviyesinde posterosantral disk protüryonu açıkça görülüyor. Tekal keseye bası mevcut. Tekrar Mehmet Yılmaz'ın raporuna dönecek olursak, L4-L5'teki basının sol foramen de daha belirgin olduğunu ve sinir kökünü irayet ettiğini net bir şekilde rapora ekleyelim. Bu, hastanın sol bacağı vuran ağrısını tam olarak açıklıyor.",
+    "form_type": "mri",
+    "extracted_data": {
+        "patient_informations": {
+            "name": "Mehmet",
+            "surname": "Yılmaz",
+            "age": 55,
+            "id": null
+        },
+        "mr_area": "Lomber",
+        "findings": "L4-L5 seviyesinde posterosantral disk protüryonu ve tekal keseye bası mevcuttur. Bası, sol foramende daha belirgin olup sinir kökünü irite etmektedir.",
+        "result": "L4-L5 seviyesinde sol foramen ve sinir köküne bası yapan posterosantral disk protüzyonu.",
+        "dr_note": "Mevcut bulgular hastanın sol bacağına vuran ağrısını açıklamaktadır."
+    }
+}

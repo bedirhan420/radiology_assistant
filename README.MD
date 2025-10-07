@@ -87,6 +87,7 @@ Bu proje, bu süreci **tamamen otomatik hale getirerek**, tek bir ses kaydından
 ┌───────────────────────────────┐
 │  Hasta_A.json, Hasta_B.json   │
 └───────────────────────────────┘
+```
 
 ## 🏗️ Teknoloji Mimarisi
 
@@ -176,3 +177,4 @@ data/processed_output/
 │   │
 │   │-- config.py
 │   │-- orchestrator.py
+

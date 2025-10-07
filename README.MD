@@ -1,4 +1,4 @@
-# 🧠 Medikal Rapor Yapılandırma Agent'ı
+# 🧠 Radyoloji Ses Dosyası Asistanı
 
 Bu proje, içerisinde birden fazla hastaya ait karmaşık ve sırasız bilgiler içeren ses kayıtlarını analiz eden ve **her hasta için yapılandırılmış (JSON formatında) raporlar üreten yapay zeka tabanlı bir agent sistemidir.**
 
@@ -107,17 +107,20 @@ Bu proje, bu süreci **tamamen otomatik hale getirerek**, tek bir ses kaydından
 ```bash
 git clone https://github.com/kullanici-adiniz/medikal-rapor-agent.git
 cd medikal-rapor-agent
+```
 
 ### 2. Sanal Ortam Oluşturun ve Aktif Edin
 
 ```bash
 conda create -n radiology_assistant python=3.12.11
 conda activate radiology_assistant
+```
 
 ### 3. Gerekli Kütüphaneleri Yükleyin
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## 4. API Anahtarlarını Ayarlayın
 
@@ -129,6 +132,8 @@ GOOGLE_API_KEY="BURAYA_GOOGLE_API_ANAHTARINIZI_YAPISTIRIN"
 
 # Hugging Face'ten alınacak: https://huggingface.co/settings/tokens
 HF_TOKEN="hf_BURAYA_HUGGINGFACE_TOKENINI_YAPISTIRIN"
+```
+---
 
 # 🧩 Nasıl Çalıştırılır?
 ## 1. Ses Dosyalarını Ekleyin
@@ -137,11 +142,13 @@ HF_TOKEN="hf_BURAYA_HUGGINGFACE_TOKENINI_YAPISTIRIN"
 
 ```bash
 data/raw_audio/
+```
 
 ## 2. Orkestratörü Çalıştırın
 
 ```bash
 python src/orchestrator.py data/raw_audio/sizin_ses_dosyaniz.mp3
+```
 
 ## 3. Çıktıları Kontrol Edin
 
@@ -149,6 +156,8 @@ python src/orchestrator.py data/raw_audio/sizin_ses_dosyaniz.mp3
 
 ```bash
 data/processed_output/
+```
+---
 
 # 📂 Dosya Yapısı
 
@@ -177,4 +186,5 @@ data/processed_output/
 │   │
 │   │-- config.py
 │   │-- orchestrator.py
+```
 

@@ -138,16 +138,16 @@ HF_TOKEN="hf_BURAYA_HUGGINGFACE_TOKENINI_YAPISTIRIN"
 # 🧩 Nasıl Çalıştırılır?
 ## 1. Ses Dosyalarını Ekleyin
 
-İşlemek istediğiniz .mp3, .wav gibi ses dosyalarını şu klasöre yerleştirin:
+İşlemek istediğiniz .mp3 ses dosyalarını şu klasöre yerleştirin:
 
 ```bash
-data/raw_audio/
+data/audio/
 ```
 
 ## 2. Orkestratörü Çalıştırın
 
 ```bash
-python src/orchestrator.py data/raw_audio/sizin_ses_dosyaniz.mp3
+python src/orchestrator.py data/audio/sizin_ses_dosyaniz.mp3
 ```
 
 ## 3. Çıktıları Kontrol Edin
@@ -155,7 +155,7 @@ python src/orchestrator.py data/raw_audio/sizin_ses_dosyaniz.mp3
 İşlem tamamlandığında aşağıdaki dizinde her hasta için oluşturulan .json dosyalarını bulabilirsiniz:
 
 ```bash
-data/processed_output/
+data/output/
 ```
 ---
 
@@ -187,4 +187,5 @@ data/processed_output/
 │   │-- config.py
 │   │-- orchestrator.py
 ```
+
 

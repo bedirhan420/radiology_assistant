@@ -87,3 +87,92 @@ Bu proje, bu süreci **tamamen otomatik hale getirerek**, tek bir ses kaydından
 ┌───────────────────────────────┐
 │  Hasta_A.json, Hasta_B.json   │
 └───────────────────────────────┘
+
+## 🏗️ Teknoloji Mimarisi
+
+| Katman | Teknoloji / Kütüphane |
+|--------|------------------------|
+| **Orkestrasyon & Agent Mantığı** | LangChain, LangGraph |
+| **Dil Modelleri (LLM)** | Google Gemini Pro |
+| **Ses-Metin Çevrimi (S2T)** | Hugging Face Whisper |
+| **Veri Yapılandırma (Schema)** | Pydantic |
+| **Programlama Dili** | Python 3.10+ |
+
+---
+
+## ⚙️ Kurulum
+
+### 1. Projeyi Klonlayın
+```bash
+git clone https://github.com/kullanici-adiniz/medikal-rapor-agent.git
+cd medikal-rapor-agent
+
+### 2. Sanal Ortam Oluşturun ve Aktif Edin
+
+```bash
+conda create -n radiology_assistant python=3.12.11
+conda activate radiology_assistant
+
+### 3. Gerekli Kütüphaneleri Yükleyin
+
+```bash
+pip install -r requirements.txt
+
+## 4. API Anahtarlarını Ayarlayın
+
+Ana dizinde .env dosyası oluşturun ve aşağıdaki içeriği ekleyin:
+
+```bash
+# Google AI Studio'dan alınacak: https://aistudio.google.com/app/apikey
+GOOGLE_API_KEY="BURAYA_GOOGLE_API_ANAHTARINIZI_YAPISTIRIN"
+
+# Hugging Face'ten alınacak: https://huggingface.co/settings/tokens
+HF_TOKEN="hf_BURAYA_HUGGINGFACE_TOKENINI_YAPISTIRIN"
+
+# 🧩 Nasıl Çalıştırılır?
+## 1. Ses Dosyalarını Ekleyin
+
+İşlemek istediğiniz .mp3, .wav gibi ses dosyalarını şu klasöre yerleştirin:
+
+```bash
+data/raw_audio/
+
+## 2. Orkestratörü Çalıştırın
+
+```bash
+python src/orchestrator.py data/raw_audio/sizin_ses_dosyaniz.mp3
+
+## 3. Çıktıları Kontrol Edin
+
+İşlem tamamlandığında aşağıdaki dizinde her hasta için oluşturulan .json dosyalarını bulabilirsiniz:
+
+```bash
+data/processed_output/
+
+# 📂 Dosya Yapısı
+
+```text
+/medikal-rapor-agent/
+│-- .env
+│-- requirements.txt
+│-- README.md
+│
+│-- /data/
+│   │-- /raw_audio/
+│   │-- /processed_output/
+│
+│-- /src/
+│   │-- /graph/
+│   │   │-- state.py
+│   │   │-- nodes.py
+│   │   │-- workflow.py
+│   │
+│   │-- /schemas/
+│   │   │-- form_schemas.py
+│   │
+│   │-- /tools/
+│   │   │-- s2t.py
+│   │   │-- llm_calls.py
+│   │
+│   │-- config.py
+│   │-- orchestrator.py

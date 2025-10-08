@@ -106,7 +106,7 @@ Bu proje, bu süreci **tamamen otomatik hale getirerek**, tek bir ses kaydından
 
 ### 1. Projeyi Klonlayın
 ```bash
-git clone https://github.com/bedirhan420/radiology_assistantt.git
+git clone https://github.com/bedirhan420/radiology_assistant.git
 cd radiology_assistant
 ```
 
@@ -188,6 +188,7 @@ data/output/
 │   │-- config.py
 │   │-- orchestrator.py
 ```
+
 
 
 

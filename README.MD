@@ -156,7 +156,7 @@ python src/orchestrator.py data/audio/sizin_ses_dosyaniz.mp3
 İşlem tamamlandığında aşağıdaki dizinde her hasta için oluşturulan .json dosyalarını bulabilirsiniz:
 
 ```bash
-data/output/
+data/output/orchestrator
 ```
 ---
 
@@ -169,8 +169,8 @@ data/output/
 │-- README.md
 │
 │-- /data/
-│   │-- /raw_audio/
-│   │-- /processed_output/
+│   │-- /audio/
+│   │-- /output/
 │
 │-- /src/
 │   │-- /graph/
@@ -188,6 +188,7 @@ data/output/
 │   │-- config.py
 │   │-- orchestrator.py
 ```
+
 
 
 

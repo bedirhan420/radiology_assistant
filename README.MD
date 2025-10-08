@@ -106,8 +106,8 @@ Bu proje, bu süreci **tamamen otomatik hale getirerek**, tek bir ses kaydından
 
 ### 1. Projeyi Klonlayın
 ```bash
-git clone https://github.com/kullanici-adiniz/medikal-rapor-agent.git
-cd medikal-rapor-agent
+git clone https://github.com/bedirhan420/radiology_assistantt.git
+cd radiology_assistant
 ```
 
 ### 2. Sanal Ortam Oluşturun ve Aktif Edin
@@ -163,7 +163,7 @@ data/output/
 # 📂 Dosya Yapısı
 
 ```text
-/medikal-rapor-agent/
+/radiology_assistant/
 │-- .env
 │-- requirements.txt
 │-- README.md
@@ -188,6 +188,7 @@ data/output/
 │   │-- config.py
 │   │-- orchestrator.py
 ```
+
 
 
 
